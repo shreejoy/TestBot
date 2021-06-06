@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const {
   Telegraf
 } = require('telegraf');
+require('./http_server')
 
 const telegram_token = process.env.TELEGRAM_TOKEN;
 const discord_token = process.env.DISCORD_TOKEN;
